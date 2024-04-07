@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" class="container">
+
+<head>
+    <link rel="stylesheet" href="FormStyles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1 id="title">Details</h1>
+    <p id="description">Enter your details so we can contact you.</p>
+    <form id="detail-form">
+        <div class="container">
+            <div class="input-items">
+                <label id="name-label">Name</label><br>
+                <input type="text" id="name" required placeholder="John Doe"><br>
+            </div>
+            <div class="input-items">
+                <label id="number-label">Number</label><br>
+                <input type="number" min="0" step="1" max="100" placeholder="9"><br>
+                <p><i>(Please make sure it is connected to whatsapp)</i></p>
+            </div>
+            <div>
+                <select id="dropdown">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                </select><br>
+            </div>
+            <div>
+                <label id="r1">Radio 1</label><input type="radio" name="radio-select"><br>
+                <label id="r1">Radio 2</label><input type="radio" name="radio-select"><br>
+            </div>
+        </div>
+        <input id="submi" type="submit">
+    </form>
+</body>
+1. Check country
+if different than India
+-> Show equivalent IST(with comments like early
+morning, late night and so on) & ask them to
+choose a time in such a way that indian tutor is
+able to contact them.
+2. Email not required
+
+</html>

@@ -1,0 +1,10 @@
+#name-label, #number-label {
+    display: inline-block;
+    padding-bottom: 0.2em;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(400px, 1fr)); /* Two columns */
+    gap: 20px;
+}
